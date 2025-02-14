@@ -1,0 +1,40 @@
+{
+  "name": "devhub-backend",
+  "version": "1.0.0",
+  "description": "Backend API for DevHub, a community platform for developers with custom authentication and real-time features.",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "server": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usama7365/Devhub-Backend.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "mongoose",
+    "authentication",
+    "real-time",
+    "Redis",
+    "Socket"
+  ],
+  "author": "Usama Aamir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/usama7365/Devhub-Backend/issues"
+  },
+  "homepage": "https://github.com/usama7365/Devhub-Backend#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1",
+    "nodemon": "^3.1.9"
+  }
+}
