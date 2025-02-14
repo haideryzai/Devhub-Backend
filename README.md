@@ -1,6 +1,5 @@
 # DevHub Backend
 
-
 <div align="center">
   <h3>🚀 Backend API for DevHub Community Platform</h3>
   <p>Supporting discussions, knowledge base, bug reports, blogs, and more for developers</p>
@@ -21,6 +20,7 @@
 ## 🛠️ Tech Stack
 
 - **Backend:**
+
   - Node.js
   - Express.js
   - MongoDB (via Mongoose)
@@ -30,7 +30,6 @@
 - **Development Tools:**
   - Nodemon (for hot-reloading during development)
   - dotenv (for managing environment variables)
-
 
 ## 🚀 Getting Started
 
@@ -42,6 +41,7 @@
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/usama7365/Devhub-Backend.git
 cd Devhub-Backend
@@ -49,11 +49,13 @@ cd Devhub-Backend
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Set up environment variables in a .env file:
+
 ```bash
 PORT="8080"
 NODE_ENV=PRODUCTION
@@ -71,8 +73,8 @@ MAIL= "Enter your email address"
 
 ```
 
-
 3. Start the development server:
+
 ```bash
 npm run server
 ```
@@ -110,29 +112,34 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🌟 Core Features
 
 ### Discussions API
+
 - Create, update, and view discussions
 - Tagging and categorization of topics
 - Upvoting and marking solutions
 
 ### Knowledge Base API
+
 - Manage community-driven documentation
 - Categorized articles
 - Search functionality
 - Version history
 
 ### Bug Reports API
+
 - Structured bug reporting system
 - Status tracking
 - Solution sharing
 - Integration with discussions
 
 ### Blog API
+
 - Rich text editor
 - Image uploads
 - Tags and categories
 - Social sharing
 
 ### Virtual Meetings
+
 - Real-time video conferencing
 - Screen sharing
 - Chat functionality
@@ -175,11 +182,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you appreciate the work I'm doing on DevHub and want to support the development of the platform, consider becoming a sponsor.
 
 ### 💖 Sponsor Links:
+
 - **GitHub Sponsors:** [usama7365](https://github.com/sponsors/usama7365)
 - **Patreon:** [feline411](https://www.patreon.com/feline411)
 
 Thank you for supporting the DevHub community! 🙏
-
 
 ## 📧 Contact
 

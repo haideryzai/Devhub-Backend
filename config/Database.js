@@ -1,5 +1,5 @@
-const mongoose = require("mongoose");
-const colors = require("colors");
+const mongoose = require('mongoose');
+const colors = require('colors');
 
 const connectDB = async () => {
   try {
@@ -8,9 +8,9 @@ const connectDB = async () => {
       socketTimeoutMS: 45000,
       family: 4,
     });
-    console.log("MongoDB Connected successfully".brightWhite.bold);
+    console.log('MongoDB Connected successfully'.brightWhite.bold);
   } catch (error) {
-    console.error("Error connecting to MongoDB:".red.bold, error);
+    console.error('Error connecting to MongoDB:'.red.bold, error);
     process.exit(1);
   }
 };
