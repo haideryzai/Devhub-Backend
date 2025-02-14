@@ -1,8 +1,8 @@
-require("dotenv").config();
+require('dotenv').config();
 
-const express = require("express");
-const colors = require("colors");
-const connectDB = require("./config/Database");
+const express = require('express');
+const colors = require('colors');
+const connectDB = require('./config/Database');
 
 const app = express();
 connectDB();
@@ -10,17 +10,17 @@ connectDB();
 app.use(express.json());
 // Routes setup
 
-app.get("/", (req, res) => {
-  console.log("Api");
+app.get('/', (req, res) => {
+  console.log('Api');
   res.status(200).json({
-    msg: "Node server is running",
+    msg: 'Node server is running',
   });
 });
 
 app.use((req, res) => {
   res.status(404).json({
     success: false,
-    msg: "Page not found",
+    msg: 'Page not found',
   });
 });
 

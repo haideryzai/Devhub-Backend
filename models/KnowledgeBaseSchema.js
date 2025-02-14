@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose from 'mongoose';
 
 const KnowledgeBaseSchema = new mongoose.Schema({
   title: { type: String, required: true },
@@ -6,7 +6,7 @@ const KnowledgeBaseSchema = new mongoose.Schema({
   description: { type: String },
   user_id: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: "User",
+    ref: 'User',
     required: true,
   },
   category: { type: String },
@@ -16,4 +16,4 @@ const KnowledgeBaseSchema = new mongoose.Schema({
   updated_at: { type: Date, default: Date.now },
 });
 
-export default mongoose.model("KnowledgeBase", KnowledgeBaseSchema);
+export default mongoose.model('KnowledgeBase', KnowledgeBaseSchema);
